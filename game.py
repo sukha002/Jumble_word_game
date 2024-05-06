@@ -47,7 +47,7 @@ def choose_rand():
     'Fireworks',
     'Telescope']
     x = int(input("Enter a number \n"))
-    x = 4
+    #x = 4
     exact_word = (random_words[x])
     jumbled_word = shuffle_letter(exact_word, len(exact_word))
     print(jumbled_word)
